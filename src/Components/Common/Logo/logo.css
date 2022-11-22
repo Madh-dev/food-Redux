@@ -1,5 +1,6 @@
 .logo{
     min-width: fit-content;
+    cursor: pointer; 
 }
 .logo img{
     width: 2.5rem;

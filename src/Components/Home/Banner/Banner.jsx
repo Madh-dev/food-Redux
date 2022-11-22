@@ -4,7 +4,7 @@ import ban from './food-banner.png'
 import Logo from '../../Common/Logo/Logo'
 
 
-const Banner = () => {
+const Banner = ({handleScrollMenu}) => {
   return (
     <header>
       <div className='header-content'>
@@ -12,7 +12,7 @@ const Banner = () => {
         <div className='content-main'>
           <h1>Delicious food for your cravings</h1>
           <p>We made fresh and healthy meals with different recipes</p>
-          <button>
+          <button onClick={handleScrollMenu}>
             View Menu <i className='fas fa-long-arrow-alt-right'></i>
            </button>
         </div> 
