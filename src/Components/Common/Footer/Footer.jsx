@@ -13,4 +13,13 @@ const Footer = () => {
   )
 }
 
+
+
+// Everything we serve is house-made 
+// and prepared by a staff that cares. You could spend a lifetime 
+// sampling every flavor combination at Federalist Pig, and we hope you do.
+
+
+
+
 export default Footer

@@ -2,14 +2,17 @@
     min-width: fit-content;
     cursor: pointer; 
 }
+
 .logo img{
     width: 2.5rem;
     margin-right: 0.4rem;
 }
+
 .logo >div{
     display: flex;
     align-items: center;
 }
+
 .logo p{
     font-size: .5rem;
 }

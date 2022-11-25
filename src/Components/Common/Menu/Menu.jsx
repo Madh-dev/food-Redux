@@ -7,7 +7,8 @@ const Menu = forwardRef(({list},ref) => (
    <main ref={ref}>
       {list.map((item) =>(
         <MenuItems item={item} key={item.id}/>
-      ))}
+      ))
+      }
    </main>
   ))
 

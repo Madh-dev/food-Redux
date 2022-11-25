@@ -15,9 +15,13 @@ function App() {
     <Router>
       <div className="container">
         <Routes>
+          {/* Home page route */}
         <Route   path='/' element={<Home />} />
+        {/* cart page route */}
         <Route   path='/cart' element={<Cart />} />
+        {/* if another pages other than the two above is input redirect to home  page  using Navigate from react-router-dom */}
         <Route path='*' element={<Navigate replace to='/' />} />
+
         </Routes>
         
       </div>
